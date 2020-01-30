@@ -20,7 +20,7 @@
                     <Button x:Name="BT_rnd" Content="Würfeln" HorizontalAlignment="Left" Margin="325,63,0,0" VerticalAlignment="Top" Width="75" Click="BT_rnd_Click"/>
                     <TextBlock x:Name="TB_rnd" HorizontalAlignment="Left" Margin="316,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" Height="26" FontSize="16"/>
                     <TextBlock HorizontalAlignment="Left" Margin="10,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="226"><Run Text="Nach Eingabe ein"/><Run Text="er Zeichenkette soll diese auf Knopfdruck umgekehrt im Ausgabefeld erscheinen."/></TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Margin="316,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="226"><Run Text="Auf Knopfdruck soll eine Zufallszahl von 1 bis 3 ausgegeben werden. Dazu die folgenden Wahrscheinlichkeiten:"/><LineBreak/><Run Text="P(1)=0,"/><Run Text="2"/><LineBreak/><Run Text="P(2)=0,"/><Run Text="5"/><LineBreak/><Run Text="P(3)=0,"/><Run Text="3"/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="316,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="115" Width="226"><Run Text="Auf Knopfdruck soll eine Zufallszahl von 1 bis 3 ausgegeben werden. "/><Run Text="Hierbei sollen "/><Run Text="die folgenden Wahrscheinlichkeiten"/><Run Text=" gelten"/><Run Text=":"/><LineBreak/><Run Text="P(1)=0,"/><Run Text="2"/><LineBreak/><Run Text="P(2)=0,"/><Run Text="5"/><LineBreak/><Run Text="P(3)=0,"/><Run Text="3"/></TextBlock>
 
                 </Grid>
             </TabItem>
@@ -40,7 +40,7 @@
                     <TextBlock x:Name="Tb_am" TextWrapping="Wrap" Text="" Margin="422,84,0,0" FontSize="16" HorizontalAlignment="Left" Width="103" Height="31" VerticalAlignment="Top"/>
                     <TextBlock HorizontalAlignment="Left" Margin="627,10,0,0" TextWrapping="Wrap" Text="und h:" VerticalAlignment="Top" Height="25" Width="46" FontSize="16"/>
                     <TextBox x:Name="Txt_h" HorizontalAlignment="Left" Height="30" Margin="678,5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="85" FontSize="14"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="334,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="351"><Run Text="Nach Eingabe von Werten f"/><Run Text="ür die Kantenlängen a1 una1 sowie der Höhe h der Seitenfläche, soll auf Knopfdruck der Inhalt der Mantelfläche, der Oberfläche und das Volumen berechnet"/><Run Text=" und "/><Run Text="auf drei Nachkommastellen gerundet "/><Run Text="ausgegeben"/><Run Text=" werden."/></TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="334,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="351"><Run Text="Nach Eingabe von Werten f"/><Run Text="ür die Kantenlängen a1 un"/><Run Text="d "/><Run Text="a"/><Run Text="2"/><Run Text=" sowie der Höhe h de"/><Run Text="s Pyramidenstumpfes"/><Run Text=", soll auf Knopfdruck der Inhalt der Mantelfläche, der Oberfläche und das Volumen berechnet"/><Run Text=" und "/><Run Text="auf drei Nachkommastellen gerundet "/><Run Text="ausgegeben"/><Run Text=" werden."/></TextBlock>
 
                 </Grid>
             </TabItem>
